@@ -55,7 +55,7 @@ const App = () => {
 
   return (
     <div className="wrapper">
-      <h1 style={{ color: "red" }}>TRAFFIC COUNTDOWN SIMULATION</h1>
+      <h1 style={{ color: "#ff5c5c", fontSize: "50px" }}>TRAFFIC COUNTDOWN SIMULATION</h1>
       <input
         type="number"
         min={1}
@@ -85,7 +85,7 @@ const App = () => {
           ))}
         </div>
       </div>
-      <h1 style={{ color: "red" }}>{showInput}</h1>
+      <h1 style={{ color: "#ff5c5c", fontSize: "50px" }}>{showInput}</h1>
     </div>
   );
 };
