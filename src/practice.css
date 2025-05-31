@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+}
+input{
+    width: 250px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid red;
+    outline: none;
+    color: white;
+    text-align: center;
+}
+.gridContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.seven-segment{
+    position: relative;
+    width: 100px;
+    height: 180px;
+}
+.segment{
+    position: absolute;
+    background-color: #333;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+}
+.on{
+    background-color: red;
+    box-shadow: 0 0 10px red;
+}
+.segment-0{
+    top: 0;
+    left: 20%;
+    width: 60%;
+    height: 10%;
+}
+.segment-1{
+    top: 5%;
+    right: 0;
+    width: 10%;
+    height: 45%;
+}
+.segment-2{
+    bottom: 5%;
+    right: 0;
+    width: 10%;
+    height: 45%;
+}
+.segment-3{
+    bottom: 0;
+    left: 20%;
+    width: 60%;
+    height: 10%;
+}
+.segment-4{
+    bottom: 5%;
+    left: 0;
+    width: 10%;
+    height: 45%;
+}
+.segment-5{
+    top: 5%;
+    left: 0;
+    width: 10%;
+    height: 45%;
+}
+.segment-6{
+    top: 45%;
+    left: 20%;
+    width: 60%;
+    height: 10%;
+}
