@@ -46,6 +46,7 @@ const App = () => {
           setLeftOrder([]);
           setRightOrder([]);
           setShowInput(0);
+          setInput(null);
         }, 1000);
       }
     }, 1000);
